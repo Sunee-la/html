@@ -1,0 +1,17 @@
+
+th,td{
+    padding:20px;
+}
+tr{
+    row-gap: -30px;
+}
+.contents{
+    color:white;
+}
+table,th,td{
+    border-spacing:30px;
+    padding: 2px;
+}
+footer{
+    margin-top: 10px;      
+}

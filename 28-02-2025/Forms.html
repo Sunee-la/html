@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+    <h1>Registration</h1>
+    <label for="">Username:</label>
+    <input type="text" placeholder="Enter Username" required pattern="[a-zA-z](4,6)"
+     title="please enter 4 to 6 characters">
+    <br><br>
+    <label for="">Gender:</label>
+    <input type="radio" name="gender" id="">Male
+    <input type="radio" name="gender" id="">Female
+    <input type="radio" name="gender" id="">No Preference
+    <br><br>
+    <label for="">Phone Number:</label>
+    <input type="text" placeholder="Enter Phone Number">
+    <br><br>
+    <label for="">Email:</label>
+    <input type="Email" name="" id="" placeholder="Email Address" required>
+    <br><br>
+    <label for="">Upload Resume:</label>
+    <input type="file">
+    <br><br>
+    <label for="">Select Color:</label>
+    <input type="Color" name="" id="">
+    <br><br>
+    <label for="">Give Reaction 1to 100:</label>
+    <input type="Range" name="" id="" max="100" min="1">
+    <br><br>
+    <label for="">Select fav Team:</label>
+    <select name="" id="">
+        <option value="">CSK</option>
+        <option value="">SRH</option>
+        <option value="">RCB</option>
+        <option value="">GT</option>
+     </select>
+     <br><br>
+     <label for="">Favourite City:</label>
+     <input list="city">
+     <datalist id="city">
+        <option value="vizag">vizag</option>
+        <option value="hyderabad">Hyderabad</option>
+        <option value="chennai">Chennai</option>
+        <option value="vijayawada">viJayawada</option>
+    </datalist>
+    <br><br>
+    <input type="submit" value="Register now">
+    <input type="reset" value="Cancel">
+</form>
+
+</body>
+</html>

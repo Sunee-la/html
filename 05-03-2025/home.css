@@ -1,0 +1,50 @@
+nav{
+    background-color:dodgerblue;
+    padding:30px;
+}
+.subnav{
+    margin-left: 300px;
+    margin-top:-30px;
+}
+a{
+    padding:20px;
+    color:white;
+}
+.img1{
+    margin-left:250px;
+    margin-bottom:50;
+}
+footer{
+        text-align: center;
+        padding: 3px;
+        background-color: DarkSalmon;
+        color: white; 
+        margin-top: 320px;      
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1720170494683-48428a09122b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+h1{
+    color:white;
+
+}
+td{
+    padding:50px;
+}
+.td2{
+    color:white;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white; 
+    margin-top: 6px;      
+}
+
+
+
+
