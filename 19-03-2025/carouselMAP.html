@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-info navbar-light p-2">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand  fs-4 ">Famous</a>
+            <ul class="navbar-nav me-5">
+               <li class="nav-item"><a href="#home" class="nav-link  fs-5 active">Home</a> </li>
+               <li class="nav-item"><a href="#history" class="nav-link  fs-5 active">History</a> </li>
+               <li class="nav-item"><a href="" class="nav-link  fs-5 active">Services</a> </li>
+               <li class="nav-item"><a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#signinmodal" fs-5 active >Signin</a></li>
+               <li class="nav-item"><a href="" class="nav-link"  data-bs-toggle="modal" data-bs-target="#Regmodal" fs-5 active>Reg</a></li>
+             </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" id="home">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 mt-3" >
+                <div class="carousel slide" id="mycard" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="tm.jpeg" alt="" height="500" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <p class="carousel-caption ">
+                                    <p class="text-white fs-4">The Taj Mahal</p>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="lh.jpeg" alt="" height="500" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <p class="carousel-caption">
+                                    <p class="text-white fs-4 ">The Light House</p>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="aw.jpeg" alt="" height="500"  class="d-block w-100">
+                            <div class="carousel-caption  ">
+                                <p class="carousel-caption">
+                                    <p class="text-white fs-4">The Angkor watt </p>
+                                </p>
+
+                            </div>
+                        </div>  <div class="carousel-item active">
+                            <img src="et.jpeg" alt="" height="500" class="d-block w-100">
+                            <div class="carousel-caption ">
+                                <p class="carousel-caption  ">
+                                    <p class="text-white fs-4">The Effil Tower</p>
+                                </p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" data-bs-target="#mycard" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" data-bs-target="#mycard" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                
+                    </div>
+                    <div class="carousel-indicators">
+                        <button class="active" data-bs-target="#mycard" data-bs-slide-to="0"> </button>
+                        <button data-bs-target="#mycard" data-bs-slide-to="1"> </button>
+                        <button  data-bs-target="#mycard" data-bs-slide-to="2"> </button>
+                        <button  data-bs-target="#mycard" data-bs-slide-to="3"> </button>
+
+                    </div>
+            
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid" id="history">
+        <h1 class="mt-3 text-center">History</h1>
+        <div class="row d-flex mt-3">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">  
+            <div class="card">
+                
+                <button class="btn" data-bs-toggle="collapse" data-bs-target="#taj"> 
+                    <img src="tm.jpeg" width="400" height="250" alt=""> 
+                </button>
+                    <div class="collapse" id="taj">
+                    <p>The Taj Mahal, one of the most famous monuments in the world, is a 17th-century mausoleum
+                         located in Agra, India. It was built by Mughal Emperor Shah Jahan in memory of his beloved wife,
+                         Mumtaz Mahal, who died in 1631 while giving birth to their 14th child.</p>
+                         <p>The Taj Mahal is a UNESCO World Heritage Site and one of the New Seven Wonders of the World.
+                            Millions of tourists visit every year to witness its beauty and history.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-5">
+            <div class="card">
+            
+                <button class="btn" data-bs-toggle="collapse" data-bs-target="#lh">
+                    <img src="lh.jpeg" width="400" height="250" alt="">
+                </button>
+                    <div class="collapse" id="lh">
+                        <p>The first known lighthouse and one of the Seven Wonders of the Ancient World.
+                            Built around 280 BCE on the island of Pharos in Egypt, it stood approximately 100 meters (330 ft) tall.
+                            Used a large fire and polished bronze mirrors to project light far into the Mediterranean Sea.</p>
+                            <p>While fewer lighthouses are operational today, many historic lighthouses have been preserved as heritage sites and tourist attractions.</p>
+
+                    </div> 
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row d-flex mt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">  
+        <div class="card">
+                <button class="btn" data-bs-toggle="collapse" data-bs-target="#aw">
+                <img src="aw.jpeg"  width="400" height="250" alt="">
+                 </button>
+                <div class="collapse" id="aw">
+                    <p>
+                    Angkor Wat, located in present-day Cambodia, is the largest religious monument in the world and a masterpiece of Khmer architecture. 
+                    Originally built as a Hindu temple,it later transformed into a Buddhist site, reflecting the dynamic spiritual landscape of the region.
+                    </p>
+                    <p>UNESCO World Heritage Site: Designated in 1992, Angkor Wat became a symbol of Cambodia’s national identity and pride.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-5">
+            <div class="card">
+                    <button class="btn" data-bs-toggle="collapse" data-bs-target="#et">
+                        <img src="et.jpeg" width="400" height="250" alt="">
+                    </button>
+                    <div class="collapse" id="et">
+                        <p>The Eiffel Tower is one of the most iconic landmarks in the world, standing tall in Paris, France. 
+                            Built as a centerpiece for the 1889 Exposition Universelle (World’s Fair), it has become a symbol of French ingenuity and culture</p>
+                        <p>UNESCO World Heritage Site: Although not a site by itself, it is part of the Paris, Banks of the Seine UNESCO designation.</p>
+                    </div>
+
+            </div>
+            </div>
+</div>  
+    <div class="container-fluid">
+        <div class="row mt-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="accordion" id="myacc">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accone">
+                                More About Taj Mahal
+                            </button>
+                        </h2>
+                        <div class="collapse accordion-collapse" id="accone" data-bs-parent="#myacc">
+                            <div class="accordion-body">
+                                <p>The Taj Mahal is an example of Mughal architecture, combining Persian, Indian, and Islamic styles.
+                                    The main mausoleum is built of white marble, which changes color depending on the time of day.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acctwo">
+                                Some Interesting Facts about lighthouse
+                            </button>
+                        </h2>
+                        <div class="collapse accordion-collapse" id="acctwo" data-bs-parent="#myacc">
+                            <div class="accordion-body">
+                                <p>The Tower of Hercules in Spain, built by the Romans in the 2nd century CE, is still operational today.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accthree">
+                                Interesting fact about Angkor watt
+                            </button>
+                        </h2>
+                        <div class="collapse accordion-collapse" id="accthree" data-bs-parent="#myacc">
+                            <div class="accordion-body">
+                                <p>Despite its massive size and grandeur, Angkor Wat was built with
+                                     remarkable precision, aligning with celestial events and the equinoxes.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accone">
+                                An Untold Story Behind Eiffel Tower
+                            </button>
+                        </h2>
+                        <div class="collapse accordion-collapse" id="accone" data-bs-parent="#myacc">
+                            <div class="accordion-body">
+                                <p>Gustave Eiffel had a private apartment at the top of the tower where he conducted scientific experiments.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="signinmodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Sign In Here</h1>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="" class="form-label">Username</label>
+                            <input type="text" class="form-control" placeholder="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="username">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success">Sign in</button>
+                    <button class="btn btn-danger">Cancel</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal fade" id="Regmodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Register Here</h1>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="" class="form-label">Username</label>
+                            <input type="text" class="form-control" placeholder="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="username">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success">Register</button>
+                    <button class="btn btn-danger">Cancel</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

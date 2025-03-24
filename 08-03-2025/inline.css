@@ -1,0 +1,31 @@
+.dropdown-menu{
+    display: none;
+}
+.dropdown-btn{
+    padding:10px;
+    background-color: gold;
+    border:none;
+}
+.dropdown{
+    width: 200px;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:link{
+    color:red;
+}
+a:hover{
+    color:green;
+    text-decoration: underline;
+}
+a:visited{
+    color:blue;
+}
+a:active{
+    color:aqua;
+}

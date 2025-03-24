@@ -1,0 +1,124 @@
+.container1{
+    display:flex;
+}
+.menu{
+    font-size: 18px;
+}
+.bar{
+    color:black;
+    padding: 8px;
+}
+.youtube{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.you{
+    color:red;
+}
+input{
+    width:400px;
+    padding: 7px;
+    border: 1px solid grey;
+    border-color: grey;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+button{
+    position: relatives;
+    padding: 7px;
+    border: 1px solid grey;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width:50px;
+}
+.container3,.container4,.container6,.container7,.container8{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 8px;
+    width: 150px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container5{
+    padding: 8px;
+}
+.container{
+    position: fixed;
+    width: 180px; 
+    height: 580px; 
+    overflow-y:auto; 
+    overflow-x:hidden;  
+    padding: 10px;
+    scroll-behavior:inherit;
+  }
+  .container2{
+    display: flex;
+    position: relative;
+    left:400px;
+}
+  .micro{
+    position: relative;
+    left: 20px;
+    top: 7px;
+    width: 20px;
+  }
+  .bell{
+    position: relative;
+    left: 280px;
+    top: 7px;
+    width: 20px;
+    font-size: 20px;
+  }
+  .account{
+    position: relative;
+    left: 300px;
+    top: 7px;
+    width: 20px;
+    font-size: 20px;
+  }
+  .navbar{
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 15px;
+    gap:20px;
+    width: 960px;
+  }
+  .videos{
+    position: relative;
+    left: 250px;
+    top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+  }
+  .videos1{
+    position: relative;
+    left: 250px;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+  }
+  .nav{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px; 
+    background-color: lightgrey; 
+  }
+  .videos2{
+    position: relative;
+    left: 250px;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+  }
+  .body{
+    overflow: hidden;
+  }

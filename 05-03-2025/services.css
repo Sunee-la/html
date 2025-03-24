@@ -7,20 +7,22 @@ table, th, td {
 }
 
 td{
-    padding:80px;
+    padding:60px;
     text-align:center;
     border-style:solid;
-    color:bisque;
+    color:yellow;
     font-size: 20px;
+    border-color: grey;
 }
 table{
-    border-spacing: 50px;
+    border-spacing: 40px;
 
 }
-footer{
+.footer{
     text-align: center;
     padding: 3px;
-    background-color: DarkSalmon;
-    color: white; 
-    margin-top: 6px;      
+    background-color: rgb(131, 99, 88);
+    color: white;
+    margin-top: 20px;
+     
 }
